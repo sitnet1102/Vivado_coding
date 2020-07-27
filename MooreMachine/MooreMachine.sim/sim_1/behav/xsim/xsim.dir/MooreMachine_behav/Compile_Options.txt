@@ -1,0 +1,1 @@
+-wto "7d0056c1684844d1af3e01eab7494adc" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "MooreMachine_behav" "xil_defaultlib.MooreMachine" -log "elaborate.log" 

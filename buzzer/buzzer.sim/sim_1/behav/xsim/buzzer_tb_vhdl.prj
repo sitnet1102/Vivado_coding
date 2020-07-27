@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../buzzer.srcs/sources_1/new/DO.vhd" \
+"../../../../buzzer.srcs/sources_1/new/LA.vhd" \
+"../../../../buzzer.srcs/sources_1/new/MI.vhd" \
+"../../../../buzzer.srcs/sources_1/new/RE.vhd" \
+"../../../../buzzer.srcs/sources_1/new/SOL.vhd" \
+"../../../../buzzer.srcs/sources_1/new/buzzer_top.vhd" \
+"../../../../buzzer.srcs/sim_1/new/buzzer_tb.vhd" \
+
+# Do not sort compile order
+nosort

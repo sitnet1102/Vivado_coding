@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed May 13 15:54:00 2020
+# Process ID: 11676
+# Current directory: C:/Xilinx/project/MealyMachine/MealyMachine.runs/synth_1
+# Command line: vivado.exe -log MealyMachine.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MealyMachine.tcl
+# Log file: C:/Xilinx/project/MealyMachine/MealyMachine.runs/synth_1/MealyMachine.vds
+# Journal file: C:/Xilinx/project/MealyMachine/MealyMachine.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source MealyMachine.tcl -notrace

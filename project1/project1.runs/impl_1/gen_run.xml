@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a75tfgg484-1" LaunchTime="1593950047">
+  <File Type="BITSTR-BMM" Name="mod10cnt_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="mod10cnt_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="mod10cnt_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="mod10cnt_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="mod10cnt.tcl"/>
+  <File Type="OPT-TIMING" Name="mod10cnt_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="mod10cnt_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="mod10cnt_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="mod10cnt_reports.tcl"/>
+  <File Type="OPT-DRC" Name="mod10cnt_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="mod10cnt.hwdef"/>
+  <File Type="PWROPT-DCP" Name="mod10cnt_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="mod10cnt_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="mod10cnt_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="mod10cnt_placed.dcp"/>
+  <File Type="PLACE-IO" Name="mod10cnt_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="mod10cnt_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="mod10cnt_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="mod10cnt_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="mod10cnt_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="mod10cnt_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="mod10cnt_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="mod10cnt_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="mod10cnt_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="mod10cnt.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="mod10cnt_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="mod10cnt_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="mod10cnt_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="mod10cnt.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="mod10cnt_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="mod10cnt_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="mod10cnt_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="mod10cnt_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="mod10cnt_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="mod10cnt_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="mod10cnt_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="mod10cnt.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="mod10cnt_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="mod10cnt_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="mod10cnt_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="mod10cnt_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="mod10cnt_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="mod10cnt_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="mod10cnt_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="mod10cnt_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="mod10cnt_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="mod10cnt_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="mod10cnt_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="mod10cnt_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="mod10cnt_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="mod10cnt_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="mod10cnt_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="mod10cnt_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="mod10cnt_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="mod10cnt_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="mod10cnt_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="mod10cnt_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="mod10cnt_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="mod10cnt.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="mod10cnt_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="mod10cnt.rbt"/>
+  <File Type="BITSTR-NKY" Name="mod10cnt.nky"/>
+  <File Type="PDI-FILE" Name="mod10cnt.pdi"/>
+  <File Type="RCFI_FILE" Name="mod10cnt.rcfi"/>
+  <File Type="CFI_FILE" Name="mod10cnt.cfi"/>
+  <File Type="RNPI_FILE" Name="mod10cnt.rnpi"/>
+  <File Type="NPI_FILE" Name="mod10cnt.npi"/>
+  <File Type="RBD_FILE" Name="mod10cnt.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="mod10cnt.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="mod10cnt.sysdef"/>
+  <File Type="BG-BGN" Name="mod10cnt.bgn"/>
+  <File Type="BG-DRC" Name="mod10cnt.drc"/>
+  <File Type="RDI-RDI" Name="mod10cnt.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/mod10cnt.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="mod10cnt"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/mod10cnt.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

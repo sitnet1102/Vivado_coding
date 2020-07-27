@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Jul  5 20:55:59 2020
+# Process ID: 9540
+# Current directory: C:/Xilinx/project/project1/project1.runs/impl_1
+# Command line: vivado.exe -log mod10cnt.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source mod10cnt.tcl -notrace
+# Log file: C:/Xilinx/project/project1/project1.runs/impl_1/mod10cnt.vdi
+# Journal file: C:/Xilinx/project/project1/project1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source mod10cnt.tcl -notrace

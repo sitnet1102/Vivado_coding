@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/project/MealyMachine/MealyMachine.srcs/sources_1/new/MM3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MM3'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/project/MealyMachine/MealyMachine.srcs/sim_1/new/MM3_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MM3_tb'

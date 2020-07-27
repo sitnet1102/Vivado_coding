@@ -1,0 +1,10 @@
+set_property -dict {PACKAGE_PIN J4 IOSTANDARD LVCMOS33} [get_ports npr]
+set_property -dict {PACKAGE_PIN L3 IOSTANDARD LVCMOS33} [get_ports nclr]
+set_property -dict {PACKAGE_PIN K3 IOSTANDARD LVCMOS33} [get_ports clk]
+set_property -dict {PACKAGE_PIN Y11 IOSTANDARD LVCMOS33} [get_ports q[3]]
+set_property -dict {PACKAGE_PIN Y12 IOSTANDARD LVCMOS33} [get_ports q[2]]
+set_property -dict {PACKAGE_PIN W11 IOSTANDARD LVCMOS33} [get_ports q[1]]
+set_property -dict {PACKAGE_PIN W12 IOSTANDARD LVCMOS33} [get_ports q[0]]
+
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets {clk_IBUF}]
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets {npr_IBUF}]

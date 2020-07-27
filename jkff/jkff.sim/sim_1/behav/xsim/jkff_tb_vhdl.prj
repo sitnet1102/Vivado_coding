@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../jkff.srcs/sources_1/new/jkff.vhd" \
+"../../../../jkff.srcs/sim_1/new/jkff_tb.vhd" \
+
+# Do not sort compile order
+nosort

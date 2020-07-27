@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../modcntdn16.srcs/sources_1/new/mod16updncnt.vhd" \
+"../../../../modcntdn16.srcs/sim_1/new/mod16updncnt_tb.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/project/dec38/dec38.srcs/sources_1/new/dec38.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'dec38'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/project/mux81/mux81.srcs/sources_1/new/mux81.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux81'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/project/mux81/mux81.srcs/sim_1/new/mux81_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux81_tb'

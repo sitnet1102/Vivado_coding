@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../decoder38.srcs/sources_1/new/dec38.vhd" \
+"../../../../decoder38.srcs/sim_1/new/dec38_tb.vhd" \
+
+# Do not sort compile order
+nosort

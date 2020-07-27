@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a75tfgg484-1" LaunchTime="1588153464">
+  <File Type="ROUTE-PWR" Name="dec38_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="dec38.tcl"/>
+  <File Type="BITSTR-BMM" Name="dec38_bd.bmm"/>
+  <File Type="ROUTE-PWR-SUM" Name="dec38_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="dec38_reports.tcl"/>
+  <File Type="OPT-DCP" Name="dec38_opt.dcp"/>
+  <File Type="OPT-DRC" Name="dec38_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="dec38.hwdef"/>
+  <File Type="PWROPT-DCP" Name="dec38_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="dec38_placed.dcp"/>
+  <File Type="PLACE-IO" Name="dec38_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="dec38_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="dec38_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="dec38_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="dec38_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="dec38_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="dec38.bin"/>
+  <File Type="PHYSOPT-DCP" Name="dec38_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="dec38.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="dec38_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="dec38_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="dec38_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="dec38_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="dec38_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="dec38_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="dec38_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="dec38.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="dec38_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="dec38_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="dec38_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="dec38_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="dec38_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="dec38_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="dec38_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="dec38_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="dec38_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="dec38_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="dec38_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="dec38_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="dec38_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="dec38_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="dec38.bit"/>
+  <File Type="BITSTR-RBT" Name="dec38.rbt"/>
+  <File Type="BITSTR-NKY" Name="dec38.nky"/>
+  <File Type="PDI-FILE" Name="dec38.pdi"/>
+  <File Type="RCFI_FILE" Name="dec38.rcfi"/>
+  <File Type="CFI_FILE" Name="dec38.cfi"/>
+  <File Type="RNPI_FILE" Name="dec38.rnpi"/>
+  <File Type="NPI_FILE" Name="dec38.npi"/>
+  <File Type="RBD_FILE" Name="dec38.rbd"/>
+  <File Type="BITSTR-LTX" Name="dec38.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="dec38.sysdef"/>
+  <File Type="BG-BGN" Name="dec38.bgn"/>
+  <File Type="BG-DRC" Name="dec38.drc"/>
+  <File Type="RDI-RDI" Name="dec38.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/dec38.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="dec38"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/dec38.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

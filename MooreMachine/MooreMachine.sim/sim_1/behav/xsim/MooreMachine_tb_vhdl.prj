@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../MooreMachine.srcs/sources_1/new/MooreMachine.vhd" \
+"../../../../MooreMachine.srcs/sim_1/new/MooreMachine_tb.vhd" \
+
+# Do not sort compile order
+nosort
